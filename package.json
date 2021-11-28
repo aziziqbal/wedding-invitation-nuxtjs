@@ -1,5 +1,5 @@
 {
-  "name": "wedding",
+  "name": "walimahan",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,21 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
+    "@chenfengyuan/vue-countdown": "^1.1.5",
+    "@dongido/vue-viaudio": "^0.3.5",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.0.1",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vue": "^2.6.12",
+    "vue-carousel": "^0.18.0",
+    "vue-fullscreen": "^2.3.5",
+    "vuejs-countdown-timer": "^2.1.3",
+    "vuesax": "^4.0.1-alpha.25",
+    "vuetify-audio": "^0.3.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",

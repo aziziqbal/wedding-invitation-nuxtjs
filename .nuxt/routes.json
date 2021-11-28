@@ -1,16 +1,14 @@
 [
   {
-    "name": "home",
-    "path": "/home",
-    "component": "/Volumes/Mac HDD/HDD Documents/Projects/wedding-invitation-nuxtjs/pages/home.vue",
-    "chunkName": "pages/home",
-    "_name": "_533d2849"
+    "name": "main",
+    "path": "/main",
+    "component": "/Volumes/Mac HDD/HDD Documents/Projects HDD/wedding-invitation-nuxtjs/pages/main.vue",
+    "chunkName": "pages/main"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Volumes/Mac HDD/HDD Documents/Projects/wedding-invitation-nuxtjs/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_68a52458"
+    "component": "/Volumes/Mac HDD/HDD Documents/Projects HDD/wedding-invitation-nuxtjs/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]

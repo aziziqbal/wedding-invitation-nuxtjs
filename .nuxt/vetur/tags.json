@@ -1,1 +1,20 @@
-{}
+{
+  "BottomNavBar": {
+    "description": "Auto imported from components/BottomNavBar.vue"
+  },
+  "Couple": {
+    "description": "Auto imported from components/Couple.vue"
+  },
+  "Event": {
+    "description": "Auto imported from components/Event.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/Home.vue"
+  },
+  "Locations": {
+    "description": "Auto imported from components/Locations.vue"
+  },
+  "Wish": {
+    "description": "Auto imported from components/Wish.vue"
+  }
+}

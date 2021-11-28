@@ -1,21 +1,14 @@
 <template>
   <section id="home" class="hide-overflow" style="overflow: hidden">
-    <!-- <audio
-      ref="audio"
-      src="@/static/audio.mp3"
-      preload
-      loop
-      id="audio"
-      muted
-    ></audio> -->
     <v-layout>
         <v-img
         class="gambar"
           :src="require('../static/flower.jpg')"
           gradient="to bottom, rgba(21, 26, 30, 0.8), rgba(21, 26, 30, 0.59)"
           height="100vh" style="">
-          <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
+          <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
+              <v-img height="230" :src="require('../static/foto_bg2.png')" contain />
               <div class="title-wed">
                 Iqbal dan Syifa Wedding
               </div>
@@ -32,7 +25,7 @@
               <div class="sub-wed">
                 Mohon maaf bila ada kesalahan pada penulisan nama/gelar
               </div>
-              <v-btn class="btn-wed text-capitalize primary--text" outlined color="transparent"  style="color:white;">
+              <v-btn @click="toHome()" class="btn-wed text-capitalize primary--text" outlined color="transparent"  style="color:white;">
                 Buka Undangan
               </v-btn>
             </v-col>
@@ -54,6 +47,13 @@ export default {
     // this.data = this.$store.state.data
     // console.log(this.data)
     this.name = this.$router.currentRoute.query['to']
+    // this.toHome()
+  },
+  methods: {
+    toHome () {
+      this.$router.push({ name: 'main' })
+      this.$root.$refs.A.openFullscreen()
+    }
   }
 }
 </script>
@@ -71,12 +71,24 @@ export default {
     font-family: Lora-Medium;
     src: url(../static/lora/Lora-Medium.ttf) format("truetype");
   }
-  .title-wed {
-    font-family: Sweet;
-    font-size:67px;
-    color:white;
-    line-height: 1em;
-    margin-bottom:20px;
+  @media only screen and (min-width: 1024px) {
+    .title-wed {
+      font-family: Sweet;
+      font-size:65px;
+      color:white;
+      line-height: 1em;
+      margin-bottom:20px;
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    .title-wed {
+      font-family: Sweet;
+      font-size:55px;
+      color:white;
+      line-height: 1em;
+      margin-bottom:20px;
+    }
   }
   .sub-wed {
     font-family: Lora-Regular;

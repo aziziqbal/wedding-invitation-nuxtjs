@@ -12,12 +12,14 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_62818130 from 'nuxt_plugin_plugin_62818130' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_plugin_f80e5e84 from 'nuxt_plugin_plugin_f80e5e84' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_workbox_37c7203c from 'nuxt_plugin_workbox_37c7203c' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_5a00b4f5 from 'nuxt_plugin_metaplugin_5a00b4f5' // Source: ./pwa/meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_5ea85a69 from 'nuxt_plugin_iconplugin_5ea85a69' // Source: ./pwa/icon.plugin.js (mode: 'all')
-import nuxt_plugin_axios_bf101774 from 'nuxt_plugin_axios_bf101774' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_plugin_2a48c0f0 from 'nuxt_plugin_plugin_2a48c0f0' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_2679dd34 from 'nuxt_plugin_plugin_2679dd34' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_workbox_94ffc78c from 'nuxt_plugin_workbox_94ffc78c' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_0a7e894d from 'nuxt_plugin_metaplugin_0a7e894d' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_axios_69ea52c4 from 'nuxt_plugin_axios_69ea52c4' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_vuesax_1aa3475f from 'nuxt_plugin_vuesax_1aa3475f' // Source: ../plugins/vuesax.js (mode: 'all')
+import nuxt_plugin_bootstrap_56cad686 from 'nuxt_plugin_bootstrap_56cad686' // Source: ../plugins/bootstrap.js (mode: 'all')
+import nuxt_plugin_aos_2279b4c6 from 'nuxt_plugin_aos_2279b4c6' // Source: ../plugins/aos.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -67,7 +69,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"%s - wedding","title":"wedding","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"titleTemplate":"Iqbal dan Syifa - Walimahan Syari","title":"Iqbal dan Syifa - Walimahan Syari","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Iqbal dan Syifa - Walimahan Syari"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fcoba.png"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -181,28 +183,36 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_62818130 === 'function') {
-    await nuxt_plugin_plugin_62818130(app.context, inject)
+  if (typeof nuxt_plugin_plugin_2a48c0f0 === 'function') {
+    await nuxt_plugin_plugin_2a48c0f0(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_f80e5e84 === 'function') {
-    await nuxt_plugin_plugin_f80e5e84(app.context, inject)
+  if (typeof nuxt_plugin_plugin_2679dd34 === 'function') {
+    await nuxt_plugin_plugin_2679dd34(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_37c7203c === 'function') {
-    await nuxt_plugin_workbox_37c7203c(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_94ffc78c === 'function') {
+    await nuxt_plugin_workbox_94ffc78c(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_5a00b4f5 === 'function') {
-    await nuxt_plugin_metaplugin_5a00b4f5(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_0a7e894d === 'function') {
+    await nuxt_plugin_metaplugin_0a7e894d(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_5ea85a69 === 'function') {
-    await nuxt_plugin_iconplugin_5ea85a69(app.context, inject)
+  if (typeof nuxt_plugin_axios_69ea52c4 === 'function') {
+    await nuxt_plugin_axios_69ea52c4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_bf101774 === 'function') {
-    await nuxt_plugin_axios_bf101774(app.context, inject)
+  if (typeof nuxt_plugin_vuesax_1aa3475f === 'function') {
+    await nuxt_plugin_vuesax_1aa3475f(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_bootstrap_56cad686 === 'function') {
+    await nuxt_plugin_bootstrap_56cad686(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_aos_2279b4c6 === 'function') {
+    await nuxt_plugin_aos_2279b4c6(app.context, inject)
   }
 
   // Lock enablePreview in context
