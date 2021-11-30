@@ -20,7 +20,7 @@
               <div v-else class="pas-wed">
                {{ name }}
               </div>
-              <v-btn dark @click="toHome()" class="btn-wed text-capitalize" outlined color="black">
+              <v-btn dark @click="toHome()" class="btn-wed text-capitalize" outlined color="#be7976">
                 Buka Undangan
               </v-btn>
             </v-col>
