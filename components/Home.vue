@@ -16,7 +16,7 @@
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
           <div class="title2-wed">
-            Iqbal dan Syifa Wedding
+                Razzaq and Tifa Wedding
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
             <v-col cols="auto">
@@ -30,7 +30,7 @@
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                5
+                11
               </div>
               <div class="year-wed">
                 2021
@@ -40,18 +40,18 @@
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  JUNI
+                  DESEMBER
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
           </v-row>
           <div class="sub-wed">
-            24 Syawwal 1442 H
+            7 Jumadil Awal 1443 H
           </div>
-          <vs-button @click="googleCalendar()" size="small"
-           upload shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;">
-            <v-icon color="black" style="margin-right:10px;font-size:16px;">mdi-calendar</v-icon> Google Kalendar
+          <vs-button @click="googleCalendar()" size="small" transparent
+            shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
+            <v-icon color="black" style="margin-right:10px;font-size:16px;">mdi-calendar</v-icon> Ingatkan saya
           </vs-button>
         </v-col>
       </v-row>
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Syifa+dan+Iqbal&details=Resepsi+pernikahan+Syifa+dan+Iqbal&dates=20210605T070000/20210605T120000&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Razzaq+dan+Tifa&details=Resepsi+pernikahan+Razzaq+dan+Tifa&dates=20211211T070000/20211211T120000&location')
     },
   }
 }

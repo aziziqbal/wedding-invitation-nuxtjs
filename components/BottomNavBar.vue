@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="navbar navbar-expand fixed-bottom" style="background-color:#618bb2;height:70px;">
+    <nav class="navbar navbar-expand fixed-bottom" style="background-color:#be7976;;height:70px;">
       <ul class="navbar-nav nav-justified mx-auto" style="padding-left:0px;">
         <li class="nav-item">
           <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#home'}">

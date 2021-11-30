@@ -19,28 +19,28 @@
             <v-col data-aos="zoom-in-right" data-aos-delay="400" cols="12" md="6" align="center">
               <v-img
                 style="width:40vh;height:260px;margin-left:5px;"
-                :src="require('../static/syifa.png')"
+                :src="require('../static/new/nobgt.png')"
                 contain  />
               <div class="nama">
-                Syifa Ul Husna
+                Maratu Latifa Yuan, S.S
               </div>
               <div class="deskripsi">
-                Putri kedua dari <br>
-                Bapak Widi Handoko
+                Putri dari <br>
+                Bapak Drs.Surianto
                 dan <br>
-                Ibu Nur Hidayati (Lu'ay Collection)
+                Ibu Yuliani, S.Pd
               </div>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
-              <v-img style="width:40vh;height:270px;margin-left:10px;" :src="require('../static/iqbal.png')" contain/>
+              <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/new/nobg.png')" contain/>
               <div class="nama">
-                Muh Aziz Iqbal
+                Dr. Achmad Abdurrazzaq, S.Si, M.Sc
               </div>
               <div class="deskripsi">
-                Putra keempat dari <br>
-                Bapak Drs Pangatun
+                Putra dari <br>
+                Bapak Muhamad Fahrurozi
                 dan <br>
-                Ibu Sri Rahayuning Sulistyani
+                Ibu Syafrida Mulyati
               </div>
             </v-col>
           </v-row>
@@ -61,23 +61,6 @@ export default {
   },
   mounted () {
     var countDownDate = new Date("May 16, 2021 15:37:25").getTime();
-
-    // // Update the count down every 1 second
-    // var x = setInterval(function() {
-
-    //   // Get today's date and time
-    //   var now = new Date().getTime()
-
-    //   // Find the distance between now and the count down date
-    //   var distance = countDownDate - now
-
-    //   // Time calculations for days, hours, minutes and seconds
-    //   var days = Math.floor(distance / (1000 * 60 * 60 * 24))
-    //   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
-    //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
-    //   var seconds = Math.floor((distance % (1000 * 60)) / 1000)
-    //   this.time = seconds
-    // }, 1000)
   }
 }
 </script>
@@ -119,7 +102,8 @@ export default {
   .bg-img {
     position: relative;
     width:100%;
-    /* height:80vh; */
+    padding-top:100px;
+    padding-bottom:100px;
   }
   .atas {
     position: absolute!important;

@@ -3,29 +3,24 @@
     <v-layout>
         <v-img
         class="gambar"
-          :src="require('../static/flower.jpg')"
-          gradient="to bottom, rgba(21, 26, 30, 0.8), rgba(21, 26, 30, 0.59)"
+          :src="require('../static/new/bg_4.jpg')"
           height="100vh" style="">
           <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
-              <v-img height="230" :src="require('../static/foto_bg2.png')" contain />
+              <v-img height="200" :src="require('../static/new/user2.png')" contain />
               <div class="title-wed">
-                Iqbal dan Syifa Wedding
+                Razzaq and Tifa Wedding
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
               </div>
-              <div v-if="name === null" class="pas-wed">
-               <!-- {{ name }} -->
+              <div v-if="name === undefined" class="pas-wed">
                Fulan / Fulanah
               </div>
               <div v-else class="pas-wed">
                {{ name }}
               </div>
-              <div class="sub-wed">
-                Mohon maaf bila ada kesalahan pada penulisan nama/gelar
-              </div>
-              <v-btn @click="toHome()" class="btn-wed text-capitalize primary--text" outlined color="transparent"  style="color:white;">
+              <v-btn dark @click="toHome()" class="btn-wed text-capitalize" outlined color="black">
                 Buka Undangan
               </v-btn>
             </v-col>
@@ -44,10 +39,7 @@ export default {
     }
   },
   mounted() {
-    // this.data = this.$store.state.data
-    // console.log(this.data)
     this.name = this.$router.currentRoute.query['to']
-    // this.toHome()
   },
   methods: {
     toHome () {
@@ -59,6 +51,16 @@ export default {
 </script>
 
 <style scoped>
+#tsparticles{
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: hidden;
+  z-index: 0;
+}
   @font-face {
     font-family: Sweet;
     src: url(../static/sweet.ttf) format("truetype");
@@ -75,9 +77,10 @@ export default {
     .title-wed {
       font-family: Sweet;
       font-size:65px;
-      color:white;
+      color:#be7976;
       line-height: 1em;
       margin-bottom:20px;
+      margin-top:20px;
     }
   }
 
@@ -85,7 +88,8 @@ export default {
     .title-wed {
       font-family: Sweet;
       font-size:55px;
-      color:white;
+      color:#be7976;
+      margin-top:10px;
       line-height: 1em;
       margin-bottom:20px;
     }
@@ -93,22 +97,21 @@ export default {
   .sub-wed {
     font-family: Lora-Regular;
     font-size:16px;
-    color:white;
+      color:#be7976;
   }
   .pas-wed {
     font-family: Lora-Regular;
     font-size:18px;
-    color:white;
+      color:#be7976;
     font-weight:600;
   }
   .btn-wed {
     margin-top:20px;
-    color:white;
+    /* color:#be7976; */
     font-family: Lora-Medium;
     width: 200px;
-    border: 1px solid white;
+    border: 1px solid #be7976;
     border-style: solid;
-    /* border-width: 2px 2px 2px 2px; */
     border-radius: 5px 5px 5px 5px;
     padding: 16px 40px 16px 40px;
   }
@@ -132,7 +135,7 @@ export default {
 
 
 .gambar {
-    -webkit-animation: zoom 50s;
-    animation: zoom 50s;
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
 }
 </style>

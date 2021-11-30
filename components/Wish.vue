@@ -1,9 +1,6 @@
 <template>
   <section id="wish">
     <v-layout class="bg-img">
-      <!-- <v-img position="right top" :src="require('../static/decor.png')" contain class="atas" />
-      <v-img position="right bottom" :src="require('../static/flower-2.png')" contain class="bawah" />
-      <v-img position="left" :src="require('../static/flower-1.png')" contain class="kiri" /> -->
       <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
         <v-col cols="12" md="7">
           <div class="title-wed">
@@ -18,7 +15,7 @@
           <div class="title-wed">
             Ucapan
           </div>
-          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="23579a96_1621363507"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="e4420f28_1638140276"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
         </v-col>
       </v-row>
     </v-layout>
@@ -90,7 +87,7 @@ export default {
   .bg-img {
     position: relative;
     width:100%;
-    /* height:80vh; */
+    height:100%;
   }
   .atas {
     position: absolute!important;

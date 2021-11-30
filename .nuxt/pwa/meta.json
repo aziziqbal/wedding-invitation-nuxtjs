@@ -52,11 +52,6 @@
   ],
   "link": [
     {
-      "hid": "shortcut-icon",
-      "rel": "shortcut icon",
-      "href": "/favicon.ico"
-    },
-    {
       "rel": "manifest",
       "href": "/_nuxt/manifest.e0112d56.json",
       "hid": "manifest"

@@ -11,7 +11,7 @@
             @start_callback="startCallBack('event started')"
             @end_callback="endCallBack('event ended')"
             :start-time="'2018-10-10 00:00:00'"
-            :end-time="1622851932"
+            :end-time="1639231200"
             :interval="1000"
             :start-label="'Until start:'"
             :end-label="''"
@@ -46,34 +46,23 @@
             <v-col data-aos="zoom-in-right" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Akad Nikah
               <br>
-              <span class="jam">08:00 – 09:00 WIB</span>
+              <span class="jam">09:00 – 10:00 WIB</span>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Walimatul 'Urs
               <br>
-              <span class="jam">09:00 – 12:00 WIB dan </span>
-              <span class="jam">13:00 – 15:00 WIB</span>
-
+              <span class="jam">11:00 – 14:00 WIB </span>
             </v-col>
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" align="center" class="alamat">
-              <span style="font-weight:bold">Desa Karanglewas</span>
-              <br> RT 10 RW 05, Kutasari, Purbalingga
+              <span style="font-weight:bold">Rumah Mempelai Wanita</span>
+              <br>Jl. Gunung kraton No.27 RT 03 RW 05 Kandanggampang, Kec. Purbalingga, kab. Purbalingga
             </v-col>
             <v-col data-aos="flip-up" data-aos-delay="400" cols="5">
               <vs-button @click="goMaps()" size="medium"
-              upload shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:10px;">
+               shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:10px;border:1px solid black">
                 <v-icon color="black" style="margin-right:10px;font-size:16px;">mdi-map</v-icon> Lihat Peta
               </vs-button>
             </v-col>
-            <!-- <v-btn
-              class="ma-2 tombol"
-              outlined
-              normal
-              style="text-transform: capitalize"
-            >
-              <v-icon left>mdi-map</v-icon>
-              Lihat Peta
-            </v-btn> -->
           </v-row>
         </v-col>
       </v-row>
@@ -91,24 +80,7 @@ export default {
     }
   },
   mounted () {
-    var countDownDate = new Date("May 16, 2021 15:37:25").getTime();
-
-    // // Update the count down every 1 second
-    // var x = setInterval(function() {
-
-    //   // Get today's date and time
-    //   var now = new Date().getTime()
-
-    //   // Find the distance between now and the count down date
-    //   var distance = countDownDate - now
-
-    //   // Time calculations for days, hours, minutes and seconds
-    //   var days = Math.floor(distance / (1000 * 60 * 60 * 24))
-    //   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
-    //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
-    //   var seconds = Math.floor((distance % (1000 * 60)) / 1000)
-    //   this.time = seconds
-    // }, 1000)
+    var countDownDate = new Date("November 11, 2021 09:00:00").getTime();
   },
   methods: {
     startCallBack: function(x) {
@@ -118,7 +90,7 @@ export default {
       console.log(x);
     },
     goMaps() {
-      window.open('https://www.google.com/maps/place/-7.367326,109.344691/data=!4m6!3m5!1s0!7e2!8m2!3d-7.3673258!4d109.34469089999999?utm_source=mstt_1&entry=gps')
+      window.open('https://maps.app.goo.gl/oSWtDJdYPbZFWJ1A6')
     }
   },
 }

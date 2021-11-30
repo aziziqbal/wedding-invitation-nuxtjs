@@ -1,18 +1,14 @@
 <template>
-  <div style="width:;">
-    <!-- <fullscreen ref="fullscreen" @change="fullscreenChange"> -->
-
+  <div style="overflow-x:none;">
     <vuetify-audio :file="file" :autoPlay="true" style="position:fixed;left:0px;top:50%;z-index:20;"></vuetify-audio>
-    <home class="bg-body" />
+    <home class="bg-body"  />
     <couple class="bg-body" />
     <event class="bg-body" />
-    <locations class="bg-body" style="margin-bottom:20px;" />
+    <locations class="bg-body" />
     <wish class="bg-body" />
     <bottom-navbar />
     <!-- </fullscreen> -->
     <vs-dialog class="" style="paddding:0px;margin:0px;" not-padding overflow-hidden auto-width v-model="active">
-      <!-- <carousel class="bg-body"  paginationActiveColor="#42b983" paginationColor="#b2ebd1" paginationSize="10" :autoplay="false" :navigationEnabled="false" :perPage="1"> -->
-        <!-- <slide class="dialog-card1"> -->
           <v-row align="center" justify="center" class=" dialog-card1 text-center">
             <v-col cols="12" class="title-card">
                <span style="font-size:15px;font-weight:normal;line-height:12px;">Acara ini dilaksanakan dengan menerapkan </span><br>
@@ -51,8 +47,6 @@
               <i class='bx bxs-paint-roll' ></i> Pindah Slide
             </vs-button> -->
           </v-row>
-        <!-- </slide> -->
-      <!-- </carousel> -->
     </vs-dialog>
   </div>
 </template>
@@ -149,10 +143,11 @@ export default {
     height:60px;
   }
   .bg-body {
-    background:url("../static/white_bg.jpeg");
+    background:url("../static/new/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
+    overflow: hidden;
   }
 .page-enter-active,
 .page-leave-active {

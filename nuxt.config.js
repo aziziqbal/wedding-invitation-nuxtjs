@@ -9,12 +9,12 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: 'Iqbal dan Syifa - Walimahan Syari',
-    title: 'Iqbal dan Syifa - Walimahan Syari',
+    titleTemplate: 'Razzaq dan Tifa - Walimahan Syari',
+    title: 'Razzaq dan Tifa - Walimahan Syari',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Iqbal dan Syifa - Walimahan Syari' }
+      { hid: 'description', name: 'description', content: 'Razzaq dan Tifa - Walimahan Syari' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/coba.png' }
@@ -22,7 +22,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
+  css: ['~/assets/variables.scss'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -56,12 +56,12 @@ export default {
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    customVariables: [],
     theme: {
       dark: false,
       themes: {
         dark: {
-          primary: '#ffffff',
+          primary: '#be7976',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -70,7 +70,7 @@ export default {
           success: colors.green.accent3
         },
         light: {
-          primary: '#ffffff'
+          primary: '#be7976'
         }
       }
     }

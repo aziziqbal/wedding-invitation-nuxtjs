@@ -1,9 +1,6 @@
 <template>
-  <section id="adab">
-    <v-layout class="bg-img">
-      <!-- <v-img position="right top" :src="require('../static/decor.png')" contain class="atas" />
-      <v-img position="right bottom" :src="require('../static/flower-2.png')" contain class="bawah" />
-      <v-img position="left" :src="require('../static/flower-1.png')" contain class="kiri" /> -->
+  <section id="adab" style="margin-bottom:0px;">
+    <v-layout class="bg-img" style="margin-bottom:0px;">
       <v-row align="center" justify="center" class="text-center fill-height" style="width:100%">
         <v-col cols="12" md="7" style="">
           <div class="title-wed" data-aos="zoom-in-up" style="margin-bottom:30px;">
@@ -154,7 +151,7 @@ export default {
   .bg-img {
     position: relative;
     width:100%;
-    /* height:100vh; */
+    height:90vh;
   }
   .atas {
     position: absolute!important;
