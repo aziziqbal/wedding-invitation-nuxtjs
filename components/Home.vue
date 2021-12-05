@@ -15,7 +15,7 @@
           <div class="sub-wed">
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
-          <div class="title2-wed">
+          <div class="judul-wed">
                 Razzaq and Tifa Wedding
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
@@ -30,7 +30,7 @@
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                11
+                12
               </div>
               <div class="year-wed">
                 2021
@@ -47,7 +47,7 @@
             </v-col>
           </v-row>
           <div class="sub-wed">
-            7 Jumadil Awal 1443 H
+            8 Jumadil Awal 1443 H
           </div>
           <vs-button @click="googleCalendar()" size="small" transparent
             shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Razzaq+dan+Tifa&details=Resepsi+pernikahan+Razzaq+dan+Tifa&dates=20211211T070000/20211211T120000&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Razzaq+dan+Tifa&details=Resepsi+pernikahan+Razzaq+dan+Tifa&dates=20211212T070000/20211212T120000&location')
     },
   }
 }
@@ -81,8 +81,8 @@ export default {
 
 <style scoped>
   @font-face {
-    font-family: Sweet;
-    src: url(../static/sweet.ttf) format("truetype");
+    font-family: creation;
+    src: url(../static/creation.otf) format("truetype");
   }
   @font-face {
     font-family: Lora-Regular;
@@ -101,9 +101,9 @@ export default {
     font-family: Lora-Medium;
     font-size:15px;
   }
-  .title2-wed {
+  .judul-wed {
     margin-top:30px;
-    font-family: Sweet;
+    font-family: creation;
     line-height: 1em;
     font-size:60px;
   }

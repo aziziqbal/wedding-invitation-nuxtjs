@@ -10,13 +10,13 @@
             <v-col cols="12">
               <v-img height="200" :src="require('../static/new/user2.png')" contain />
               <div class="title-wed">
-                Razzaq and Tifa Wedding
+                Razzaq and Tifa
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
               </div>
               <div v-if="name === undefined" class="pas-wed">
-               Fulan / Fulanah
+               Tamu Undangan
               </div>
               <div v-else class="pas-wed">
                {{ name }}
@@ -179,7 +179,7 @@ export default {
 }
   @font-face {
     font-family: Sweet;
-    src: url(../static/sweet.ttf) format("truetype");
+    src: url(../static/creation.otf) format("truetype");
   }
   @font-face {
     font-family: Lora-Regular;

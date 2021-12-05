@@ -11,7 +11,7 @@
             @start_callback="startCallBack('event started')"
             @end_callback="endCallBack('event ended')"
             :start-time="'2018-10-10 00:00:00'"
-            :end-time="1639231200"
+            :end-time="1639274400000"
             :interval="1000"
             :start-label="'Until start:'"
             :end-label="''"
@@ -57,6 +57,9 @@
               <span style="font-weight:bold">Rumah Mempelai Wanita</span>
               <br>Jl. Gunung kraton No.27 RT 03 RW 05 Kandanggampang, Kec. Purbalingga, kab. Purbalingga
             </v-col>
+            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" style="margin-top:100px;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15814.589474100421!2d110.00923465!3d-7.720931299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6559b3e4cd8fd9%3A0x9a462bfa272c1598!2sMaratu%20Collection%2C%20Jl.%20Gn.%20Keraton%2C%20Kandang%20Gampang%2C%20Kec.%20Purbalingga%2C%20Kabupaten%20Purbalingga%2C%20Jawa%20Tengah%2053312!5e0!3m2!1sid!2sid!4v1638746111715!5m2!1sid!2sid"  height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+            </v-col>
             <v-col data-aos="flip-up" data-aos-delay="400" cols="5">
               <vs-button @click="goMaps()" size="medium"
                shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:10px;border:1px solid black">
@@ -80,7 +83,7 @@ export default {
     }
   },
   mounted () {
-    var countDownDate = new Date("November 11, 2021 09:00:00").getTime();
+    var countDownDate = new Date("November 12, 2021 09:00:00").getTime();
   },
   methods: {
     startCallBack: function(x) {
@@ -153,7 +156,9 @@ export default {
   .bg-img {
     position: relative;
     width:100%;
-    height:100vh;
+    height:100%;
+    padding-bottom:100px;
+    padding-top:100px;
   }
   .atas {
     display: block;
