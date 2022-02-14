@@ -3,7 +3,7 @@
     <v-layout class="bg-img">
       <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
         <v-col cols="12" md="7">
-          <div class="title-wed">
+          <!-- <div class="title-wed">
             Kirim Hadiah
           </div>
           <v-row>
@@ -33,7 +33,7 @@
               </div>
             </div>
           </v-col>
-          </v-row>
+          </v-row> -->
           <div class="title-wed" style="margin-top:100px;">
             Doa untuk kedua mempelai
           </div>
@@ -46,7 +46,7 @@
           <div class="title-wed">
             Ucapan
           </div>
-          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="e4420f28_1638140276"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="f54360a9_1644841734"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
         </v-col>
       </v-row>
     </v-layout>

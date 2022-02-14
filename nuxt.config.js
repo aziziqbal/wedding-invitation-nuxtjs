@@ -1,35 +1,36 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from "vuetify/es5/util/colors";
 
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
 
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: "static",
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: 'Razzaq dan Tifa - Walimahan Syari',
-    title: 'Razzaq dan Tifa - Walimahan Syari',
+    titleTemplate: "Luhur dan Eva - Walimahan Syari",
+    title: "Razzaq dan Tifa - Walimahan Syari",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Razzaq dan Tifa - Walimahan Syari' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: "Luhur dan Eva - Walimahan Syari"
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/coba.png' }
-    ]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/coba.png" }]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['~/assets/variables.scss'
-  ],
+  css: ["~/assets/variables.scss"],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '@/plugins/vuesax.js',
-    '@/plugins/bootstrap.js',
-    '@/plugins/aos.js'
+    "@/plugins/vuesax.js",
+    "@/plugins/bootstrap.js",
+    "@/plugins/aos.js"
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -40,15 +41,15 @@ export default {
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify'
+    "@nuxtjs/vuetify"
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    "@nuxtjs/axios",
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    "@nuxtjs/pwa"
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -61,7 +62,7 @@ export default {
       dark: false,
       themes: {
         dark: {
-          primary: '#be7976',
+          primary: "#be7976",
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -70,7 +71,7 @@ export default {
           success: colors.green.accent3
         },
         light: {
-          primary: '#be7976'
+          primary: "#be7976"
         }
       }
     }
@@ -81,18 +82,18 @@ export default {
     loaders: {
       vue: {
         transformAssetUrls: {
-          audio: 'src'
+          audio: "src"
         }
       }
     },
     extend(config, ctx) {
       config.module.rules.push({
         test: /\.(ogg|mp3|wav|mpe?g)$/i,
-        loader: 'file-loader',
+        loader: "file-loader",
         options: {
-          name: '[path][name].[ext]'
+          name: "[path][name].[ext]"
         }
-      })
+      });
     }
   }
-}
+};

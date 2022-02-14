@@ -22,25 +22,25 @@
                 :src="require('../static/new/nobgt.png')"
                 contain  />
               <div class="nama">
-                Maratu Latifa Yuan, S.S
+                Eva Oktarosanty
               </div>
               <div class="deskripsi">
-                Putri dari <br>
-                Bapak Drs.Surianto
+                Putri pertama dari <br>
+                Bapak Mudakir/Basir/Sir
                 dan <br>
-                Ibu Yuliani, S.Pd
+                Ibu Ngadiyem
               </div>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
               <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/new/nobg.png')" contain/>
               <div class="nama">
-                Dr. Achmad Abdurrazzaq, S.Si, M.Sc
+                Luhur Priambudi Wibowo
               </div>
               <div class="deskripsi">
-                Putra dari <br>
-                Bapak Muhamad Fahrurozi
+                Putra kedua dari <br>
+                Bapak Muryanto
                 dan <br>
-                Ibu Syafrida Mulyati
+                Ibu Tuwuh Sutiarsih
               </div>
             </v-col>
           </v-row>

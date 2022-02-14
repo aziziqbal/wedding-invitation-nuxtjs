@@ -10,7 +10,7 @@
             <v-col cols="12">
               <v-img height="200" :src="require('../static/new/user2.png')" contain />
               <div class="title-wed">
-                Razzaq and Tifa
+                Luhur dan Eva
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i

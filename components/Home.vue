@@ -16,38 +16,38 @@
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
           <div class="judul-wed">
-                Razzaq and Tifa Wedding
+              Luhur dan Eva Wedding
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
             <v-col cols="auto">
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  SABTU
+                  JUMAT
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                12
+                11
               </div>
               <div class="year-wed">
-                2021
+                2022
               </div>
             </v-col>
             <v-col cols="auto">
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  DESEMBER
+                  MARET
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
           </v-row>
           <div class="sub-wed">
-            8 Jumadil Awal 1443 H
+            8 Sya'ban 1443 H
           </div>
           <vs-button @click="googleCalendar()" size="small" transparent
             shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Razzaq+dan+Tifa&details=Resepsi+pernikahan+Razzaq+dan+Tifa&dates=20211212T070000/20211212T120000&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Luhur+dan+Eva&details=Resepsi+pernikahan+Luhur+dan+Eva&dates=20211211T070000/20211211T120000&location')
     },
   }
 }
