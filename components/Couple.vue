@@ -28,7 +28,7 @@
                 Putri dari <br>
                 Bapak Abdullah Maulud
                 dan <br>
-                Ibu Pujiati (Almh) <br>
+                Ibu Pujiati <span style="font-style: italic;">rahimahallah</span> <br>
                 (Wirasana, Purbalingga)
               </div>
             </v-col>

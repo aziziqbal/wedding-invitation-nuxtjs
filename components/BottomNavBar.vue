@@ -2,13 +2,13 @@
 
     <nav class="navbar navbar-expand fixed-bottom" style="background-color:#a3c19d;;height:70px;">
       <ul class="navbar-nav nav-justified mx-auto" style="padding-left:0px;">
-        <li class="nav-item">
-          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#home'}">
+        <li class="nav-item" style="width:20px;">
+          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#home'}" >
             <v-icon style="font-size:25px;" color="white">mdi-home</v-icon>
             <div class="name-navbar" style="color:white;">Home</div>
           </NuxtLink>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" >
           <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#couple'}">
             <v-icon color="white">mdi-heart</v-icon>
             <div class="name-navbar" style="color:white;">Couple</div>
