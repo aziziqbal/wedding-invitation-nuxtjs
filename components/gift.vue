@@ -1,21 +1,52 @@
 <template>
-  <section id="wish">
+  <section id="gift">
     <v-layout class="bg-img">
       <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
         <v-col cols="12" md="7">
-          <div class="title-wed" style="margin-top:0px;">
-            Doa untuk kedua mempelai
-          </div>
-          <div class="title-wed2" style="margin-bottom:20px;">
-            بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ
-          </div>
-          <div class="sub-wed2" style="margin-bottom:50px;">
-            “Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, serta semoga Allah mempersatukan kalian berdua dalam kebaikan”
-          </div>
           <div class="title-wed">
-            Ucapan
+            Kirim Hadiah
           </div>
-          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="712b73f0_1645002583"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+          <v-row>
+          <v-col cols="12" md="6">
+            <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
+              <div class="img-logo">
+                <v-img :src="require('../static/bsi.png')" contain  style="margin-left:auto;margin-right:auto;"/>
+              </div>
+              <div class="garis-logo" />
+              <div class="detail-logo">
+                5861459590 <br>
+                a/n
+                Hanif Abdul Aziz Suyogo
+              </div>
+            </div>
+          </v-col>
+          <v-col cols="12" md="6">
+            <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
+              <div class="img-logo">
+                <v-img :src="require('../static/gopay.png')" contain  style="margin-left:auto;margin-right:auto;"/>
+              </div>
+              <div class="garis-logo" />
+              <div class="detail-logo">
+                083874685257 <br>
+                a/n
+                Hanif Abdul Aziz Suyogo
+              </div>
+            </div>
+          </v-col>
+          <v-col cols="12" md="12">
+            <div class="box-pembayaran" data-aos="fade-left" data-aos-delay="500" style="width:;margin-left:auto;margin-right:auto;">
+              <div class="img-logo">
+                <v-img  :src="require('../static/bca.png')" contain style="margin-left:auto;margin-right:auto;"/>
+              </div>
+              <div class="garis-logo" />
+              <div class="detail-logo">
+                0970808361 <br>
+                a/n
+                Hana Azizah
+              </div>
+            </div>
+          </v-col>
+          </v-row>
         </v-col>
       </v-row>
     </v-layout>

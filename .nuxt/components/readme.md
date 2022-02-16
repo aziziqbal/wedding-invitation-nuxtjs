@@ -12,3 +12,4 @@ You can directly use them in pages and other components without the need to impo
 - `<Home>` | `<home>` (components/Home.vue)
 - `<Locations>` | `<locations>` (components/Locations.vue)
 - `<Wish>` | `<wish>` (components/Wish.vue)
+- `<Gift>` | `<gift>` (components/gift.vue)

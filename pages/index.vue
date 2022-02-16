@@ -3,14 +3,14 @@
     <v-layout>
         <v-img
         class="gambar"
-          :src="require('../static/new/bg_4.jpg')"
+          :src="require('../static/5669622.jpg')"
           height="100vh" style="">
           <div id="particles-js"></div>
           <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
-              <v-img height="200" :src="require('../static/new/user2.png')" contain />
+              <v-img height="240" :src="require('../static/sketch1644922588802 (1).png')" contain />
               <div class="title-wed">
-                Luhur dan Eva
+                Hanif dan Hana
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
@@ -169,7 +169,7 @@ export default {
 <style scoped>
 #particles-js{
   position: absolute;
-  background-size: cover;
+  background-size: contain;
   top: 0;
   bottom: 0;
   left: 0;
@@ -232,7 +232,7 @@ export default {
     padding: 16px 40px 16px 40px;
   }
 
-  @-webkit-keyframes zoom {
+  /* @-webkit-keyframes zoom {
     from {
     	-webkit-transform: scale(1);
     }
@@ -247,7 +247,7 @@ export default {
     to {
     	-webkit-transform: scale(1.1, 1);
     }
-  }
+  } */
 
 
 .gambar {

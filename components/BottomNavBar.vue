@@ -1,6 +1,6 @@
 <template>
 
-    <nav class="navbar navbar-expand fixed-bottom" style="background-color:#be7976;;height:70px;">
+    <nav class="navbar navbar-expand fixed-bottom" style="background-color:#a3c19d;;height:70px;">
       <ul class="navbar-nav nav-justified mx-auto" style="padding-left:0px;">
         <li class="nav-item">
           <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#home'}">
@@ -27,7 +27,13 @@
           </NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#wish'}">
+          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#gift'}">
+            <v-icon style="padding-left:1px;" color="white">mdi-gift</v-icon>
+            <div class="name-navbar" style="color:white;">Gift</div>
+          </NuxtLink>
+        </li>
+        <li class="nav-item" >
+          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#wish'}" style="background-color:;padding-top:10px;">
             <v-icon color="white">mdi-comment-text</v-icon>
             <div class="name-navbar" style="color:white;">Wish</div>
           </NuxtLink>

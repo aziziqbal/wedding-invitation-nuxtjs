@@ -7,7 +7,8 @@ const components = {
   Event: () => import('../../components/Event.vue' /* webpackChunkName: "components/event" */).then(c => wrapFunctional(c.default || c)),
   Home: () => import('../../components/Home.vue' /* webpackChunkName: "components/home" */).then(c => wrapFunctional(c.default || c)),
   Locations: () => import('../../components/Locations.vue' /* webpackChunkName: "components/locations" */).then(c => wrapFunctional(c.default || c)),
-  Wish: () => import('../../components/Wish.vue' /* webpackChunkName: "components/wish" */).then(c => wrapFunctional(c.default || c))
+  Wish: () => import('../../components/Wish.vue' /* webpackChunkName: "components/wish" */).then(c => wrapFunctional(c.default || c)),
+  Gift: () => import('../../components/gift.vue' /* webpackChunkName: "components/gift" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

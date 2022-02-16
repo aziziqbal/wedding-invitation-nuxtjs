@@ -9,18 +9,18 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: "Luhur dan Eva - Walimahan Syari",
-    title: "Razzaq dan Tifa - Walimahan Syari",
+    titleTemplate: "Hanif dan Hana - Walimahan Syari",
+    title: "Hanif dan Hana - Walimahan Syari",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Luhur dan Eva - Walimahan Syari"
+        content: "Hanif dan Hana - Walimahan Syari"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/coba.png" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/coba2.png" }]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

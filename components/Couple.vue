@@ -19,28 +19,30 @@
             <v-col data-aos="zoom-in-right" data-aos-delay="400" cols="12" md="6" align="center">
               <v-img
                 style="width:40vh;height:260px;margin-left:5px;"
-                :src="require('../static/new/nobgt.png')"
+                :src="require('../static/sketch1644921611379.png')"
                 contain  />
               <div class="nama">
-                Eva Oktarosanty
+                Hana Azizah
               </div>
               <div class="deskripsi">
-                Putri pertama dari <br>
-                Bapak Mudakir/Basir/Sir
+                Putri dari <br>
+                Bapak Abdullah Maulud
                 dan <br>
-                Ibu Ngadiyem
+                Ibu Pujiati (Almh) <br>
+                (Wirasana, Purbalingga)
               </div>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
-              <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/new/nobg.png')" contain/>
+              <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/sketch1644921462736.png')" contain/>
               <div class="nama">
-                Luhur Priambudi Wibowo
+                Hanif Abdul Aziz Suyogo
               </div>
               <div class="deskripsi">
-                Putra kedua dari <br>
-                Bapak Muryanto
+                Putra dari <br>
+                Bapak Yoyo Karyo Sukardi
                 dan <br>
-                Ibu Tuwuh Sutiarsih
+                Ibu Titi Siti Maesaroh <br>
+                (Cijeungjing, Ciamis)
               </div>
             </v-col>
           </v-row>

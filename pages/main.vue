@@ -5,6 +5,7 @@
     <couple class="bg-body" />
     <event class="bg-body" />
     <locations class="bg-body" />
+    <gift class="bg-body" />
     <wish class="bg-body" />
     <bottom-navbar />
     <!-- </fullscreen> -->
@@ -58,6 +59,7 @@ import Couple from '~/components/Couple.vue'
 import Event from '~/components/Event.vue'
 import Locations from '~/components/Locations.vue'
 import Wish from '~/components/Wish.vue'
+import gift from '~/components/gift.vue'
 
 export default {
   components: {
@@ -67,6 +69,7 @@ export default {
     Event,
     Locations,
     Wish,
+    gift,
     VuetifyAudio: () => import('vuetify-audio')
   },
   data() {

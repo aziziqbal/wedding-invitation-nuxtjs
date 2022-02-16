@@ -16,5 +16,8 @@
   },
   "Wish": {
     "description": "Auto imported from components/Wish.vue"
+  },
+  "Gift": {
+    "description": "Auto imported from components/gift.vue"
   }
 }
