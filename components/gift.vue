@@ -10,39 +10,26 @@
           <v-col cols="12" md="6">
             <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
               <div class="img-logo">
-                <v-img :src="require('../static/bsi.png')" contain  style="margin-left:auto;margin-right:auto;"/>
+                <v-img :src="require('../static/bca.png')" contain  style="margin-left:auto;margin-right:auto;"/>
               </div>
               <div class="garis-logo" />
               <div class="detail-logo">
-                5861459590 <br>
+                1091997261 <br>
                 a/n
-                Hanif Abdul Aziz Suyogo
+                Bayu Anggara
               </div>
             </div>
           </v-col>
           <v-col cols="12" md="6">
             <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
               <div class="img-logo">
-                <v-img :src="require('../static/gopay.png')" contain  style="margin-left:auto;margin-right:auto;"/>
+                <v-img :src="require('../static/bca.png')" contain  style="margin-left:auto;margin-right:auto;"/>
               </div>
               <div class="garis-logo" />
               <div class="detail-logo">
-                083874685257 <br>
+                0970674691 <br>
                 a/n
-                Hanif Abdul Aziz Suyogo
-              </div>
-            </div>
-          </v-col>
-          <v-col cols="12" md="12">
-            <div class="box-pembayaran" data-aos="fade-left" data-aos-delay="500" style="width:;margin-left:auto;margin-right:auto;">
-              <div class="img-logo">
-                <v-img  :src="require('../static/bca.png')" contain style="margin-left:auto;margin-right:auto;"/>
-              </div>
-              <div class="garis-logo" />
-              <div class="detail-logo">
-                0970808361 <br>
-                a/n
-                Hana Azizah
+                Lalan Tilar Rahayu
               </div>
             </div>
           </v-col>

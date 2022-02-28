@@ -8,9 +8,9 @@
           <div id="particles-js"></div>
           <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
-              <v-img height="240" :src="require('../static/sketch1644922588802 (1).png')" contain />
+              <v-img height="300" :src="require('../static/bayulalan.png')" contain />
               <div class="title-wed">
-                Hanif dan Hana
+                Bayu dan Lalan
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
@@ -42,7 +42,6 @@ export default {
   },
   mounted() {
     this.name = this.$router.currentRoute.query['to']
-
     this.initParticles()
   },
   methods: {

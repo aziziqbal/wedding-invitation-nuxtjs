@@ -15,7 +15,7 @@
           <div class="title-wed">
             Ucapan
           </div>
-          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="712b73f0_1645002583"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="b6baa61b_1645868512"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
         </v-col>
       </v-row>
     </v-layout>

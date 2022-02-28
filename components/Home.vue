@@ -1,7 +1,7 @@
 <template>
   <section id="home">
     <v-layout class="bg-img">
-      <v-img data-aos="fade-down" data-aos-delay="500" position="right top" :src="require('../static/decor.png')" contain class="atas" />
+      <v-img data-aos="fade-down" data-aos-delay="500" position="right top" :src="require('../static/sketch1645876603264.png')" contain class="atas" />
       <v-img data-aos="fade-top" data-aos-delay="500" position="right bottom" :src="require('../static/flower-2.png')" contain class="bawah" />
       <v-img data-aos="fade-down" data-aos-delay="500" position="left" :src="require('../static/flower-1.png')" contain class="kiri" />
       <v-row data-aos="zoom-in-up" data-aos-delay="500" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0" >
@@ -16,21 +16,21 @@
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
           <div class="judul-wed">
-            Hanif dan Hana Wedding
+            Bayu dan Lalan Wedding
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
             <v-col cols="auto">
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  KAMIS
+                  AHAD
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                3
+                6
               </div>
               <div class="year-wed">
                 2022
@@ -47,7 +47,7 @@
             </v-col>
           </v-row>
           <div class="sub-wed">
-            30 Rajab 1443 H
+            3 Sya'ban 1443 H
           </div>
           <vs-button @click="googleCalendar()" size="small" transparent
             shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Hanif+dan+Hana&details=Resepsi+pernikahan+Hanif+dan+Hana&dates=20220303T090000/20220303&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Bayu+dan+Lalan&details=Resepsi+pernikahan+Bayu+dan+Lalan&dates=20220306T080000/20220306&location')
     },
   }
 }
@@ -166,7 +166,7 @@ export default {
   }
   @media only screen and (min-width: 1264px) {
     .atas {
-      height:20vh;
+      height:30vh;
     }
     .atas2 {
       height:20vh;
@@ -174,7 +174,7 @@ export default {
   }
   @media only screen and (max-width: 1263px) {
     .atas {
-      height:11vh;
+      height:20vh;
     }
     .sub-wed {
       margin-top:15px;
@@ -184,15 +184,15 @@ export default {
     .bawah {
       position: absolute!important;
       right: 0px;
-      bottom: 5vh;
-      height:15%;
+      bottom: 10vh;
+      height:30%;
       z-index: 0!important;
     }
     .kiri {
       position: absolute!important;
       left: 0px;
-      bottom: -3vh;
-      height:12%;
+      bottom: 20vh;
+      height:40%;
       z-index: 0!important;
     }
   }

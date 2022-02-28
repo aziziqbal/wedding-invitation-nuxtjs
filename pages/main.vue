@@ -76,7 +76,7 @@ export default {
     return {
       data: {},
       name: '',
-      file: 'https://www.aziziqbal.com/audio.mp3',
+      file: 'https://www.aziziqbal.com/lalan.mp3',
       fullscreen: true,
       active: true,
     }
@@ -146,7 +146,7 @@ export default {
     height:60px;
   }
   .bg-body {
-    background:url("../static/new/bg.jpg");
+    background:url("../static/bgw.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;

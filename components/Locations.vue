@@ -7,27 +7,27 @@
             Adab Menghadiri Pernikahan
           </div>
           <v-row class="text-center" cols="12" align="" justify="" style="padding:10px;" data-aos="zoom-in-up">
-            <v-col cols="6" md="6" align="center" justify="center">
+            <v-col cols="6" md="4" align="center" justify="center">
               <v-img :src="require('../static/protokol/mosque.png')" contain class="icon-wed" />
               <div class="sub-wed">Memperhatikan waktu shalat dan tidak melalaikan shalat</div>
             </v-col>
-            <v-col cols="6" md="6">
+            <v-col cols="6" md="4">
               <v-img :src="require('../static/protokol/dua-hands.png')" contain class="icon-wed" />
               <div class="sub-wed">Mendoakan kedua mempelai</div>
             </v-col>
-            <!-- <v-col cols="6" md="4">
+            <v-col cols="6" md="4">
               <v-img :src="require('../static/protokol/no-pictures.png')" contain class="icon-wed" />
               <div class="sub-wed">Tidak mengambil gambar tanpa izin kedua mempelai</div>
-            </v-col> -->
-            <v-col cols="6" md="6">
+            </v-col>
+            <v-col cols="6" md="4">
               <v-img :src="require('../static/protokol/cutlery.png')" contain class="icon-wed" />
               <div class="sub-wed">Memperhatikan adab makan dan minum</div>
             </v-col>
-            <!-- <v-col cols="6" md="4">
+            <v-col cols="6" md="4">
               <v-img :src="require('../static/protokol/no-handshake.png')" contain class="icon-wed" />
               <div class="sub-wed">Tidak berjabat tangan dengan yang bukan mahram</div>
-            </v-col> -->
-            <v-col cols="6" md="6">
+            </v-col>
+            <v-col cols="6" md="4">
               <v-img :src="require('../static/protokol/cloth.png')" contain class="icon-wed" />
               <div class="sub-wed">Berpakaian sopan dan untuk wanita muslim memakai hijab dan pakaian longgar</div>
             </v-col>
@@ -151,7 +151,7 @@ export default {
   .bg-img {
     position: relative;
     width:100%;
-    height:90vh;
+    height:100%;
   }
   .atas {
     position: absolute!important;

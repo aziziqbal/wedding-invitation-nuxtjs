@@ -5,13 +5,13 @@
       <v-img data-aos="fade-down" data-aos-delay="400" position="left" :src="require('../static/flower-1.png')" contain class="kiri" />
       <v-row  align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
         <v-col cols="12" md="7">
-          <v-img data-aos="zoom-in-up" data-aos-delay="400" position="center" contain :src="require('../static/bottom-decor.png')" class="atas" />
+          <v-img data-aos="zoom-in-up" data-aos-delay="400" position="center" contain :src="require('../static/sketch1645876112997.png')" class="atas" />
           <vue-countdown-timer
             data-aos="zoom-in-up" data-aos-delay="400"
             @start_callback="startCallBack('event started')"
             @end_callback="endCallBack('event ended')"
             :start-time="'2018-10-10 00:00:00'"
-            :end-time="1646298000000"
+            :end-time="1646528400000"
             :interval="1000"
             :start-label="'Until start:'"
             :end-label="''"
@@ -43,22 +43,22 @@
             </template>
           </vue-countdown-timer>
           <v-row align="end" justify="center" class="text-center" style="background-color:;">
-            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" md="12" align="center" class="judul">
-              Akad dan Walimatul 'Urs
+            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
+              Akad
               <br>
-              <span class="jam">09:00 WIB sampai selesai</span>
+              <span class="jam">Senin, 7 Maret 2022 <br> Pukul 08.00 WIB - selesai</span>
             </v-col>
-            <!-- <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
+            <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Walimatul 'Urs
               <br>
-              <span class="jam">08:30 – 11:30 WIB </span>
-            </v-col> -->
+              <span class="jam">Ahad & Senin, Tanggal 6 - 7 Maret 2022 <br>Pukul 08.00 WIB - selesai </span>
+            </v-col>
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" align="center" class="alamat">
               <span style="font-weight:bold">Rumah Mempelai Wanita</span>
-              <br>Jalan Sendang Mas no. 25 Wirasana rt rw 04/02. Kec. Purbalingga Kab. Purbalingga
+              <br>Gemuruh, Rt 003 Rw 005, Kec.Padamara, Kab.Purbalingga, Jateng
             </v-col>
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" style="margin-top:100px;">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.7768777751353!2d109.3663759147755!3d-7.378884994675594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68ff68f097baacae!2zN8KwMjInNDQuMCJTIDEwOcKwMjInMDYuOCJF!5e0!3m2!1sid!2sid!4v1645002271235!5m2!1sid!2sid"  height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8068936149343!2d109.34169531477554!3d-7.375527994678023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9479185ba413115c!2zN8KwMjInMzEuOSJTIDEwOcKwMjAnMzguMCJF!5e0!3m2!1sid!2sid!4v1645869196106!5m2!1sid!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
             </v-col>
             <v-col data-aos="flip-up" data-aos-delay="400" cols="5">
               <vs-button @click="goMaps()" size="medium"
@@ -93,7 +93,7 @@ export default {
       console.log(x);
     },
     goMaps() {
-      window.open('https://goo.gl/maps/fbMg8yKVF6La4NTV8')
+      window.open('https://goo.gl/maps/XUgQM6XR82Aff6Bx5')
     }
   },
 }
@@ -164,8 +164,8 @@ export default {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:30px;
-    width:250px;
+    margin-bottom:20px;
+    width:300px;
   }
   .bawah {
     position: absolute!important;

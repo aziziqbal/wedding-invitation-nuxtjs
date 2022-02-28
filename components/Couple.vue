@@ -17,32 +17,32 @@
           </div>
           <v-row align="center" justify="center" class="text-center" style="background-color:;">
             <v-col data-aos="zoom-in-right" data-aos-delay="400" cols="12" md="6" align="center">
-              <v-img
-                style="width:40vh;height:260px;margin-left:5px;"
-                :src="require('../static/sketch1644921611379.png')"
-                contain  />
+              <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/bayu.png')" contain/>
               <div class="nama">
-                Hana Azizah
-              </div>
-              <div class="deskripsi">
-                Putri dari <br>
-                Bapak Abdullah Maulud
-                dan <br>
-                Ibu Pujiati <span style="font-style: italic;">rahimahallah</span> <br>
-                (Wirasana, Purbalingga)
-              </div>
-            </v-col>
-            <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
-              <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/sketch1644921462736.png')" contain/>
-              <div class="nama">
-                Hanif Abdul Aziz Suyogo
+                Bayu Anggara, S.T.
               </div>
               <div class="deskripsi">
                 Putra dari <br>
-                Bapak Yoyo Karyo Sukardi
+                Bapak Sumadi, S.Pd
                 dan <br>
-                Ibu Titi Siti Maesaroh <br>
-                (Cijeungjing, Ciamis)
+                Ibu Yuni Kusbandiyah, A.Ma<br>
+                <i>(Mandiraja, Kab.Banjarnegara)</i>
+              </div>
+            </v-col>
+            <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
+              <v-img
+                style="width:40vh;height:260px;margin-left:5px;"
+                :src="require('../static/lalan.png')"
+                contain  />
+              <div class="nama">
+                Lalan Tilar Rahayu
+              </div>
+              <div class="deskripsi">
+                Putri dari <br>
+                Bapak Karsim
+                dan <br>
+                Ibu Koniah <br>
+                <i>(Padamara, Purbalingga)</i>
               </div>
             </v-col>
           </v-row>
@@ -144,10 +144,15 @@ export default {
       z-index: 0!important;
     }
     .kiri {
-      position: absolute!important;
+      /* position: absolute!important;
       left: 0px;
       bottom: -3vh;
       height:12%;
+      z-index: 0!important; */
+      position: absolute!important;
+      left: 0px;
+      bottom: 20vh;
+      height:17%;
       z-index: 0!important;
     }
   }
