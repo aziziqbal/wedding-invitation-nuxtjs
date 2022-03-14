@@ -19,14 +19,13 @@
             <v-col data-aos="zoom-in-right" data-aos-delay="400" cols="12" md="6" align="center">
               <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/bayu.png')" contain/>
               <div class="nama">
-                Bayu Anggara, S.T.
+                Ahmad Sony Alfathani
               </div>
               <div class="deskripsi">
                 Putra dari <br>
-                Bapak Sumadi, S.Pd
+                Bapak H. Jalaludin S.Pd
                 dan <br>
-                Ibu Yuni Kusbandiyah, A.Ma<br>
-                <i>(Mandiraja, Kab.Banjarnegara)</i>
+                Ibu Hj. Seniah S.Pd
               </div>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
@@ -35,14 +34,14 @@
                 :src="require('../static/lalan.png')"
                 contain  />
               <div class="nama">
-                Lalan Tilar Rahayu
+              Ika Puji Dana Savitri
               </div>
               <div class="deskripsi">
                 Putri dari <br>
-                Bapak Karsim
+                Bapak Khoirul Jazin
                 dan <br>
-                Ibu Koniah <br>
-                <i>(Padamara, Purbalingga)</i>
+                Ibu Su’aibatul Islamiyah
+
               </div>
             </v-col>
           </v-row>

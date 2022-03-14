@@ -3,12 +3,14 @@
     "name": "main",
     "path": "/main",
     "component": "/Volumes/Mac HDD/HDD Documents/Projects HDD/wedding-invitation-nuxtjs/pages/main.vue",
-    "chunkName": "pages/main"
+    "chunkName": "pages/main",
+    "_name": "_cb6bc30a"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Volumes/Mac HDD/HDD Documents/Projects HDD/wedding-invitation-nuxtjs/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_df22e600"
   }
 ]

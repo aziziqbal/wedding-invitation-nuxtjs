@@ -9,15 +9,15 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: "Bayu dan Lalan - Walimahan Syari",
-    title: "Bayu dan Lalan - Walimahan Syari",
+    titleTemplate: "Sony dan Ika - Walimahan Syari",
+    title: "Sony dan Ika - Walimahan Syari",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        hid: "description",
-        name: "description",
-        content: "Bayu dan Lalan - Walimahan Syari"
+        hid: "Walimahan Syari",
+        name: "Walimahan Syari",
+        content: "Sony dan Ika - Walimahan Syari"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/coba2.png" }]

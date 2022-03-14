@@ -27,9 +27,9 @@
           </NuxtLink>
         </li>
         <li class="nav-item">
-          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#gift'}">
-            <v-icon style="padding-left:1px;" color="white">mdi-gift</v-icon>
-            <div class="name-navbar" style="color:white;">Gift</div>
+          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#rsvp'}">
+            <v-icon style="padding-left:1px;padding-top:2px;" color="white">mdi-gift</v-icon>
+            <div class="name-navbar" style="color:white;">RSVP</div>
           </NuxtLink>
         </li>
         <li class="nav-item" >

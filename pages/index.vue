@@ -3,14 +3,14 @@
     <v-layout>
         <v-img
         class="gambar"
-          :src="require('../static/5669622.jpg')"
+          :src="require('../static/bg.jpeg')"
           height="100vh" style="">
           <div id="particles-js"></div>
           <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
-              <v-img height="300" :src="require('../static/bayulalan.png')" contain />
+              <v-img height="300" :src="require('../static/sony.png')" contain />
               <div class="title-wed">
-                Bayu dan Lalan
+                Sony dan Ika
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
@@ -21,7 +21,7 @@
               <div v-else class="pas-wed">
                {{ name }}
               </div>
-              <v-btn dark @click="toHome()" class="btn-wed text-capitalize" outlined color="#be7976">
+              <v-btn dark @click="toHome()" class="btn-wed text-capitalize" outlined color="white">
                 Buka Undangan
               </v-btn>
             </v-col>
@@ -47,6 +47,7 @@ export default {
   methods: {
     toHome () {
       this.$router.push({ name: 'main' })
+      localStorage.setItem('name', this.name)
       this.$root.$refs.A.openFullscreen()
     },
     initParticles() {
@@ -192,7 +193,7 @@ export default {
     .title-wed {
       font-family: Sweet;
       font-size:65px;
-      color:#be7976;
+      color:white;
       line-height: 1em;
       margin-bottom:20px;
       margin-top:20px;
@@ -203,7 +204,7 @@ export default {
     .title-wed {
       font-family: Sweet;
       font-size:55px;
-      color:#be7976;
+      color:white;
       margin-top:10px;
       line-height: 1em;
       margin-bottom:20px;
@@ -212,12 +213,12 @@ export default {
   .sub-wed {
     font-family: Lora-Regular;
     font-size:16px;
-      color:#be7976;
+      color:white;
   }
   .pas-wed {
     font-family: Lora-Regular;
     font-size:18px;
-      color:#be7976;
+      color:white;
     font-weight:600;
   }
   .btn-wed {
@@ -225,7 +226,7 @@ export default {
     /* color:#be7976; */
     font-family: Lora-Medium;
     width: 200px;
-    border: 1px solid #be7976;
+    border: 1px solid white;
     border-style: solid;
     border-radius: 5px 5px 5px 5px;
     padding: 16px 40px 16px 40px;

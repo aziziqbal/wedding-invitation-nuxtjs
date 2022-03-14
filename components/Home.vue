@@ -16,21 +16,21 @@
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
           <div class="judul-wed">
-            Bayu dan Lalan Wedding
+            Sony dan Ika Wedding
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
             <v-col cols="auto">
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  AHAD
+                  Minggu
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                6
+                27
               </div>
               <div class="year-wed">
                 2022
@@ -47,7 +47,7 @@
             </v-col>
           </v-row>
           <div class="sub-wed">
-            3 Sya'ban 1443 H
+            24 Sya'ban 1443 H
           </div>
           <vs-button @click="googleCalendar()" size="small" transparent
             shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Bayu+dan+Lalan&details=Resepsi+pernikahan+Bayu+dan+Lalan&dates=20220306T080000/20220306&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Sony+dan+Ika&details=Resepsi+pernikahan+Sony+dan+Ika&dates=20220327T080000/20220327&location')
     },
   }
 }
@@ -185,15 +185,16 @@ export default {
       position: absolute!important;
       right: 0px;
       bottom: 10vh;
-      height:30%;
+      height:25%;
       z-index: 0!important;
     }
     .kiri {
-      position: absolute!important;
+      /* position: absolute!important;
       left: 0px;
       bottom: 20vh;
-      height:40%;
-      z-index: 0!important;
+      height:35%;
+      z-index: 0!important; */
+      display: none;
     }
   }
 </style>

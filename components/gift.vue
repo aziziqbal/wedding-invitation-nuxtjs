@@ -1,38 +1,73 @@
 <template>
-  <section id="gift">
+  <section id="rsvp">
     <v-layout class="bg-img">
       <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
         <v-col cols="12" md="7">
           <div class="title-wed">
-            Kirim Hadiah
+            Konfirmasi Kehadiran
           </div>
-          <v-row>
-          <v-col cols="12" md="6">
-            <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
-              <div class="img-logo">
-                <v-img :src="require('../static/bca.png')" contain  style="margin-left:auto;margin-right:auto;"/>
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="6">
+              <div class="judul" style="">
+                Nama :
               </div>
-              <div class="garis-logo" />
-              <div class="detail-logo">
-                1091997261 <br>
-                a/n
-                Bayu Anggara
+              <div>
+                <v-text-field
+                  v-model="name"
+                  outlined
+                  hide-details
+                  dense
+                ></v-text-field>
               </div>
-            </div>
-          </v-col>
-          <v-col cols="12" md="6">
-            <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
-              <div class="img-logo">
-                <v-img :src="require('../static/bca.png')" contain  style="margin-left:auto;margin-right:auto;"/>
+            </v-col>
+          </v-row>
+          <!-- <v-row align="center" justify="center">
+            <v-col cols="12" md="6">
+              <div class="judul" style="">
+                Catatan :
               </div>
-              <div class="garis-logo" />
-              <div class="detail-logo">
-                0970674691 <br>
-                a/n
-                Lalan Tilar Rahayu
+              <div>
+                <v-textarea
+                  v-model="catatan"
+                  outlined
+                  hide-details
+                  dense
+                ></v-textarea>
               </div>
-            </div>
-          </v-col>
+            </v-col>
+          </v-row> -->
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="6">
+              <div class="judul" style="">
+                Konfirmasi :
+              </div>
+              <div>
+                <v-radio-group
+                  v-model="status"
+                  column
+                >
+                  <v-radio
+                    label="Iya, saya akan datang"
+                    value="akan datang"
+                  ></v-radio>
+                  <v-radio
+                    label="Saya masih ragu"
+                    value="masih ragu"
+                  ></v-radio>
+                  <v-radio
+                    label="Maaf, saya tidak bisa datang"
+                    value="tidak bisa datang"
+                  ></v-radio>
+                </v-radio-group>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="6">
+              <v-btn block @click="kirim()">
+                Kirim
+              </v-btn>
+            </v-col>
           </v-row>
         </v-col>
       </v-row>
@@ -44,13 +79,28 @@
 export default {
   data() {
     return {
+      snackbar: true,
       data: {},
       name: '',
-      time: {}
+      catatan: '',
+      status: '',
+      time: {},
+      resp: ''
     }
   },
   mounted () {
+    this.resp = ''
+    this.name = localStorage.getItem('name');
+    if(this.name === 'undefined') {
+      this.name = ''
+    }
+    console.log(this.name)
     var countDownDate = new Date("May 16, 2021 15:37:25").getTime();
+  },
+  methods: {
+     kirim() {
+      window.open("https://wa.me/821093334065?text=Bismillah, Assalamu’alaikum Warahmatullahi Wabarakaatuh. InsyaAllah saya " + this.name + " " + this.status + " di Walimatul 'Urs Sony dan Ika", "_blank");
+    }
   }
 }
 </script>
@@ -67,6 +117,11 @@ export default {
   @font-face {
     font-family: Lora-Medium;
     src: url(../static/lora/Lora-Medium.ttf) format("truetype");
+  }
+  .judul {
+    text-align:left;
+    margin-bottom:10px;
+    font-family: Lora-Medium;
   }
   .box-pembayaran {
     border: 1px solid #ddd;
