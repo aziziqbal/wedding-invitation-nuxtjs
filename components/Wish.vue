@@ -3,19 +3,19 @@
     <v-layout class="bg-img">
       <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
         <v-col cols="12" md="7">
-          <div class="title-wed" style="margin-top:0px;">
+          <div class="title-wed" style="margin-top:0px;color:white;">
             Doa untuk kedua mempelai
           </div>
-          <div class="title-wed2" style="margin-bottom:20px;">
+          <div class="title-wed2" style="margin-bottom:20px;color:white;">
             بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ
           </div>
-          <div class="sub-wed2" style="margin-bottom:50px;">
+          <div class="sub-wed2" style="margin-bottom:50px;color:white;">
             “Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, serta semoga Allah mempersatukan kalian berdua dalam kebaikan”
           </div>
-          <div class="title-wed">
+          <div class="title-wed" style="color:white;">
             Ucapan
           </div>
-          <div style="height: 80v;margin-bottom:100px;overflow: scroll;" class="powr-comments" id="4e7b085c_1647254313"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+          <div style="height: 80v;margin-bottom:100px;overflow: scroll;color:white;" class="powr-comments" id="cf1f2c08_1654486227"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
         </v-col>
       </v-row>
     </v-layout>

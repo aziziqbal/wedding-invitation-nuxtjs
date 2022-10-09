@@ -9,18 +9,18 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: "Sony dan Ika - Walimahan Syari",
-    title: "Sony dan Ika - Walimahan Syari",
+    titleTemplate: "Tomi dan Nabilah - Walimahan Syari",
+    title: "Tomi dan Nabilah - Walimahan Syari",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "Walimahan Syari",
         name: "Walimahan Syari",
-        content: "Sony dan Ika - Walimahan Syari"
+        content: "Tomi dan Nabilah - Walimahan Syari"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/coba2.png" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/icon_tomy.png" }]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)

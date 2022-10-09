@@ -11,7 +11,7 @@
             @start_callback="startCallBack('event started')"
             @end_callback="endCallBack('event ended')"
             :start-time="'2018-10-10 00:00:00'"
-            :end-time="1648342800000"
+            :end-time="1656694800000"
             :interval="1000"
             :start-label="'Until start:'"
             :end-label="''"
@@ -22,8 +22,8 @@
             :minutes-txt="'Menit'"
             :seconds-txt="'Detik'">
             <template slot="start-label" slot-scope="scope">
-              <span style="color: red" v-if="scope.props.startLabel !== '' && scope.props.tips && scope.props.labelPosition === 'begin'">{{scope.props.startLabel}}:</span>
-              <span style="color: blue" v-if="scope.props.endLabel !== '' && !scope.props.tips && scope.props.labelPosition === 'begin'">{{scope.props.endLabel}}:</span>
+              <span style="color: white" v-if="scope.props.startLabel !== '' && scope.props.tips && scope.props.labelPosition === 'begin'">{{scope.props.startLabel}}:</span>
+              <span style="color: white" v-if="scope.props.endLabel !== '' && !scope.props.tips && scope.props.labelPosition === 'begin'">{{scope.props.endLabel}}:</span>
             </template>
 
             <template slot="countdown" slot-scope="scope">
@@ -34,31 +34,35 @@
             </template>
 
             <template slot="end-label" slot-scope="scope">
-              <span style="color: red" v-if="scope.props.startLabel !== '' && scope.props.tips && scope.props.labelPosition === 'end'">{{scope.props.startLabel}}:</span>
-              <span style="color: blue" v-if="scope.props.endLabel !== '' && !scope.props.tips && scope.props.labelPosition === 'end'">{{scope.props.endLabel}}:</span>
+              <span style="color: white" v-if="scope.props.startLabel !== '' && scope.props.tips && scope.props.labelPosition === 'end'">{{scope.props.startLabel}}:</span>
+              <span style="color: white" v-if="scope.props.endLabel !== '' && !scope.props.tips && scope.props.labelPosition === 'end'">{{scope.props.endLabel}}:</span>
             </template>
 
             <template slot="end-text" slot-scope="scope">
-              <span style="color: green">{{ scope.props.endText}}</span>
+              <span style="color: white">{{ scope.props.endText}}</span>
             </template>
           </vue-countdown-timer>
           <v-row align="end" justify="center" class="text-center" style="background-color:;">
-            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" md="12" align="center" class="judul">
+            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Akad
               <br>
-              <span class="jam"> 09.00 WIB - selesai <br> <span style="font-weight:;">Masjid Al-Busroh Polres Lamongan</span></span>
+              <span class="jam"> Sabtu, 2 Juli 2022<br> <span style="font-weight:;">09.00 WIB - 10.00 WIB </span></span> <br>
+            </v-col>
+            <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
+              Resepsi Pernikahan
+              <br>              <span class="jam"> Sabtu, 2 Juli 2022<br> <span style="font-weight:;">10.00 WIB - selesai </span></span> <br>
+
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="12" align="center" class="judul">
-              Walimatul 'Urs
+Rumah Mempelai Wanita
               <br>
-              <span  class="jam"> 10.00 WIB - 13.00 WIB <br> <span style="font-weight:500;">Jalan Veteran No 112 A Lamongan <br>(depan kantor catatan sipil Lamongan)</span></span>
+              <span class="jam">
+                Rumah Cerdas <br>
+Perumahan Permata Wirasana Blok A5 Celeleng, Wirasana, Purbalingga
+              </span> <br>
             </v-col>
-            <!-- <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" align="center" class="alamat">
-              <span style="font-weight:bold">Rumah Mempelai Wanita</span>
-              <br>Alamat Jalan Veteran No 112 A Lamongan (depan kantor catatan sipil Lamongan)
-            </v-col> -->
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" style="margin-top:100px;">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d494.8792635646094!2d112.4221153!3d-7.1220452!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77f0acb18ba6bf%3A0xd43b168b825ddacc!2sJl.%20Veteran%20No.51%2C%20Jetis%2C%20Kec.%20Lamongan%2C%20Kabupaten%20Lamongan%2C%20Jawa%20Timur%2062211!5e0!3m2!1sid!2sid!4v1647254079894!5m2!1sid!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8289376572375!2d109.3666532!3d-7.373061599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3da9af2ad3cb3c6!2sRumah%20Cerdas!5e0!3m2!1sid!2sid!4v1654485440440!5m2!1sid!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
             </v-col>
             <v-col data-aos="flip-up" data-aos-delay="400" cols="5">
               <vs-button @click="goMaps()" size="medium"
@@ -93,7 +97,7 @@ export default {
       console.log(x);
     },
     goMaps() {
-      window.open('https://goo.gl/maps/f12b2MgLDcM3SopN6')
+      window.open('https://maps.google.com/?cid=277704694115906502')
     }
   },
 }
@@ -115,24 +119,29 @@ export default {
   .hari {
     font-family: Lora-Medium;
     font-size:40px;
+    color:white;
   }
   .sub-hari {
     font-family: Lora-Medium;
     font-size:20px;
+    color:white;
   }
   .tanggal {
     font-family: Lora-Medium;
     font-size:30px;
+    color:white;
   }
   .tahun {
     font-family: Lora-Medium;
     font-size:20px;
+    color:white;
   }
   .judul {
     font-family: Rancho-Regular;
     font-size:25px;
     line-height:30px;
     margin-top:10px;
+    color:white;
   }
   .jam {
     font-family: Lora-Regular;
@@ -143,6 +152,7 @@ export default {
     font-family: Lora-Regular;
     font-size:17px;
     line-height:30px;
+    color:white;
     /* margin-top:10px; */
   }
   .tombol {

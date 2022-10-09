@@ -3,14 +3,14 @@
     <v-layout>
         <v-img
         class="gambar"
-          :src="require('../static/bg.jpeg')"
+          :src="require('../static/tomy_bg.png')"
           height="100vh" style="">
           <div id="particles-js"></div>
           <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
-              <v-img height="300" :src="require('../static/sony.png')" contain />
+              <v-img height="350" :src="require('../static/tomy_1.png')" contain />
               <div class="title-wed">
-                Sony dan Ika
+                Tomi dan Nabilah
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
@@ -196,7 +196,7 @@ export default {
       color:white;
       line-height: 1em;
       margin-bottom:20px;
-      margin-top:20px;
+      margin-top:0px;
     }
   }
 
@@ -207,7 +207,7 @@ export default {
       color:white;
       margin-top:10px;
       line-height: 1em;
-      margin-bottom:20px;
+      margin-bottom:10px;
     }
   }
   .sub-wed {

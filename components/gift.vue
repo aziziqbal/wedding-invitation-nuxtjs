@@ -12,12 +12,12 @@
                 Nama :
               </div>
               <div>
-                <v-text-field
+                <input
                   v-model="name"
-                  outlined
-                  hide-details
-                  dense
-                ></v-text-field>
+                  style="color:white;border:1px solid white;width:100%;
+    height: 38px;
+    border-radius: 2px;padding-left:10px;"
+                ></input>
               </div>
             </v-col>
           </v-row>
@@ -45,6 +45,7 @@
                 <v-radio-group
                   v-model="status"
                   column
+                  dark
                 >
                   <v-radio
                     label="Iya, saya akan datang"
@@ -99,7 +100,7 @@ export default {
   },
   methods: {
      kirim() {
-      window.open("https://wa.me/821093334065?text=Bismillah, Assalamu’alaikum Warahmatullahi Wabarakaatuh. InsyaAllah saya " + this.name + " " + this.status + " di Walimatul 'Urs Sony dan Ika", "_blank");
+      window.open("https://wa.me/628974771832?text=Bismillah, Assalamu’alaikum Warahmatullahi Wabarakaatuh. InsyaAllah saya " + this.name + " " + this.status + " di Walimatul 'Urs Tomi dan Nabilah", "_blank");
     }
   }
 }
@@ -122,6 +123,7 @@ export default {
     text-align:left;
     margin-bottom:10px;
     font-family: Lora-Medium;
+    color:white;
   }
   .box-pembayaran {
     border: 1px solid #ddd;
@@ -130,6 +132,7 @@ export default {
     border-radius:4px;
     padding-bottom:20px;
     padding-top:20px;
+    color:white;
   }
   .img-logo {
     margin-left: auto;
@@ -142,34 +145,41 @@ export default {
     font-family: Lora-Regular;
     font-size:16px;
     margin-top:20px;
+    color:white;
   }
   .title-wed2 {
     font-family: Lora-Regular;
+    color:white;
     font-size:16px;
     margin-top:20px;
   }
   .sub-wed2 {
     margin-top:5px;
+    color:white;
     font-family: Lora-Regular;
     font-size:16px;
     margin-bottom:10px;
   }
   .title-wed {
     font-family: Rancho-Regular;
+    color:white;
     font-size:40px;
     margin-bottom:30px;
   }
   .sub-wed {
+    color:white;
     margin-top:10px;
     font-family: Lora-Medium;
     font-size:15px;
   }
   .title2-wed {
     margin-top:20px;
+    color:white;
     font-family: Sweet;
     font-size:60px;
   }
   .tanggal-wed {
+    color:white;
     margin-top:10px;
     font-family: Lora-Medium;
     font-size:20px;

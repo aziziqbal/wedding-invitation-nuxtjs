@@ -16,21 +16,21 @@
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
           <div class="judul-wed">
-            Sony dan Ika Wedding
+            Tomi dan Nabilah
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
             <v-col cols="auto">
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  Minggu
+                  Sabtu
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                27
+                02
               </div>
               <div class="year-wed">
                 2022
@@ -40,14 +40,14 @@
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  MARET
+                  Juli
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
           </v-row>
           <div class="sub-wed">
-            24 Sya'ban 1443 H
+            2 Dzulhijjah 1443 H
           </div>
           <vs-button @click="googleCalendar()" size="small" transparent
             shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Sony+dan+Ika&details=Resepsi+pernikahan+Sony+dan+Ika&dates=20220327T080000/20220327&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Tomi+dan+Nabilah&details=Resepsi+pernikahan+Tomi+dan+Nabilah&dates=20220702T080000/20220702&location')
     },
   }
 }
@@ -95,23 +95,26 @@ export default {
   .title-wed {
     font-family: Lora-Medium;
     font-size:20px;
+    color:white;
   }
   .sub-wed {
     margin-top:15px;
     font-family: Lora-Medium;
     font-size:15px;
+    color:white;
   }
   .judul-wed {
     margin-top:30px;
     font-family: creation;
     line-height: 1em;
     font-size:60px;
+    color:white;
   }
   .card-border {
     width:100px;
   }
   .border-wed {
-    border:solid 1px black;
+    border:solid 1px white;
     width:100%;
   }
   .day-wed {
@@ -119,16 +122,19 @@ export default {
     margin-bottom:9px;
     font-family: Lora-Medium;
     font-size:20px;
+    color:white;
   }
   .date-wed {
     /* font-family: Lora-Medium; */
     font-family: Sweet;
+    color:white;
     font-size:50px;
     /* padding-top:30px; */
   }
   .year-wed {
     font-family: Lora-Medium;
     font-size:20px;
+    color:white;
   }
   .bg1 {
     width:100px;
