@@ -10,17 +10,16 @@
             <v-col cols="12">
               <v-img height="300" :src="require('../static/bayulalan.png')" contain />
               <div class="title-wed">
-                Bayu dan Lalan
+                Rifki dan Salma
               </div>
-              <div class="sub-wed">
-                Kepada Bapak/Ibu/Saudara/i
-              </div>
-              <div v-if="name === undefined" class="pas-wed">
-               Tamu Undangan
-              </div>
-              <div v-else class="pas-wed">
-               {{ name }}
-              </div>
+              <span v-if="name !== undefined">
+                <div class="sub-wed">
+                  Kepada Bapak/Ibu/Saudara/i
+                </div>
+                <div class="pas-wed">
+                {{ name }}
+                </div>
+              </span>
               <v-btn dark @click="toHome()" class="btn-wed text-capitalize" outlined color="#be7976">
                 Buka Undangan
               </v-btn>

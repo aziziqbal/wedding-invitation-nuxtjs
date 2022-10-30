@@ -26,14 +26,14 @@
             <div class="name-navbar" style="color:white;">Adab</div>
           </NuxtLink>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#gift'}">
             <v-icon style="padding-left:1px;" color="white">mdi-gift</v-icon>
             <div class="name-navbar" style="color:white;">Gift</div>
           </NuxtLink>
-        </li>
+        </li> -->
         <li class="nav-item" >
-          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#wish'}" style="background-color:;padding-top:10px;">
+          <NuxtLink class="nav-link" :to="{ path: '/main',hash:'#wish'}" style="background-color:;padding-top:9px;">
             <v-icon color="white">mdi-comment-text</v-icon>
             <div class="name-navbar" style="color:white;">Wish</div>
           </NuxtLink>

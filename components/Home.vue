@@ -16,7 +16,7 @@
             [Qur'an Surat Ar-Rum ayat 21]
           </div>
           <div class="judul-wed">
-            Bayu dan Lalan Wedding
+            Rifki dan Salma Wedding
           </div>
           <v-row align="center" justify="center" class="text-center" style="">
             <v-col cols="auto">
@@ -30,7 +30,7 @@
             </v-col>
             <v-col cols="2" style="padding-top:20px;">
               <div class="date-wed">
-                6
+                23
               </div>
               <div class="year-wed">
                 2022
@@ -40,14 +40,14 @@
               <v-row align="center" justify="center" class="card-border text-center">
                 <div class="border-wed" />
                 <div class="day-wed">
-                  MARET
+                  Oktober
                 </div>
                 <div class="border-wed" />
               </v-row>
             </v-col>
           </v-row>
           <div class="sub-wed">
-            3 Sya'ban 1443 H
+            27 Rabiul Awal 1444 H
           </div>
           <vs-button @click="googleCalendar()" size="small" transparent
             shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:15px;border:1px solid black" >
@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     googleCalendar() {
-      window.open('https://calendar.google.com/calendar/u/0/r/eventedit?text=Acara+Pernikahan+Bayu+dan+Lalan&details=Resepsi+pernikahan+Bayu+dan+Lalan&dates=20220306T080000/20220306&location')
+      window.open('https://calendar.google.com/calendar/u/0/r/eventedit/copy/MTVta2NpZmk0cjdsdTlycTI0N2djdGo4N2sgbXVoYXppemlxYmFsMDZAbQ/bXVoYXppemlxYmFsMDZAZ21haWwuY29t?sf=true')
     },
   }
 }

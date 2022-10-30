@@ -5,7 +5,7 @@
     <couple class="bg-body" />
     <event class="bg-body" />
     <locations class="bg-body" />
-    <gift class="bg-body" />
+    <!-- <gift class="bg-body" /> -->
     <wish class="bg-body" />
     <bottom-navbar />
     <!-- </fullscreen> -->
@@ -76,7 +76,7 @@ export default {
     return {
       data: {},
       name: '',
-      file: 'https://www.aziziqbal.com/lalan.mp3',
+      file: "https://walimahansyari.com/lalan.mp3",
       fullscreen: true,
       active: true,
     }

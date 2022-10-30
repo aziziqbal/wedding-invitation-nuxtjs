@@ -11,7 +11,7 @@
             @start_callback="startCallBack('event started')"
             @end_callback="endCallBack('event ended')"
             :start-time="'2018-10-10 00:00:00'"
-            :end-time="1646528400000"
+            :end-time="1666490400000"
             :interval="1000"
             :start-label="'Until start:'"
             :end-label="''"
@@ -46,19 +46,19 @@
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Akad
               <br>
-              <span class="jam">Senin, 7 Maret 2022 <br> Pukul 08.00 WIB - selesai</span>
+              <span class="jam">Ahad, 23 Oktober 2022 <br> Pukul 09.00 WIB - selesai</span>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Walimatul 'Urs
               <br>
-              <span class="jam">Ahad & Senin, Tanggal 6 - 7 Maret 2022 <br>Pukul 08.00 WIB - selesai </span>
+              <span class="jam">Ahad, Tanggal 23 Oktober 2022 <br>Pukul 11.00 WIB - selesai </span>
             </v-col>
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" align="center" class="alamat">
               <span style="font-weight:bold">Rumah Mempelai Wanita</span>
-              <br>Gemuruh, Rt 003 Rw 005, Kec.Padamara, Kab.Purbalingga, Jateng
+              <br>Jl. Perintis Kemerdekaan no 35 RT 04 RW 05, Purwokerto Kulon, Purwokerto Selatan, Banyumas, Jateng (belakang SMP Muhamadiyah   1 Purwokerto)
             </v-col>
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" style="margin-top:100px;">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8068936149343!2d109.34169531477554!3d-7.375527994678023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9479185ba413115c!2zN8KwMjInMzEuOSJTIDEwOcKwMjAnMzguMCJF!5e0!3m2!1sid!2sid!4v1645869196106!5m2!1sid!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.3101070235894!2d109.23787531477593!3d-7.43089499463889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79faf0b7467674cc!2zN8KwMjUnNTEuMiJTIDEwOcKwMTQnMjQuMiJF!5e0!3m2!1sid!2sid!4v1665362681954!5m2!1sid!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
             </v-col>
             <v-col data-aos="flip-up" data-aos-delay="400" cols="5">
               <vs-button @click="goMaps()" size="medium"
@@ -93,7 +93,7 @@ export default {
       console.log(x);
     },
     goMaps() {
-      window.open('https://goo.gl/maps/XUgQM6XR82Aff6Bx5')
+      window.open('https://goo.gl/maps/e28yhTcuD6kw9WBP9')
     }
   },
 }
