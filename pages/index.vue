@@ -5,12 +5,12 @@
         class="gambar"
           :src="require('../static/tomy_bg.png')"
           height="100vh" style="">
-          <div id="particles-js"></div>
+          <!-- <div id="particles-js"></div> -->
           <v-row data-aos="fade-up" align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
             <v-col cols="12">
               <v-img height="350" :src="require('../static/tomy_1.png')" contain />
               <div class="title-wed">
-                Tomi dan Nabilah
+                Kutub dan Wia
               </div>
               <div class="sub-wed">
                 Kepada Bapak/Ibu/Saudara/i
@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import 'particles.js'
+// import 'particles.js'
 export default {
   data() {
     return {
@@ -42,7 +42,7 @@ export default {
   },
   mounted() {
     this.name = this.$router.currentRoute.query['to']
-    this.initParticles()
+    // this.initParticles()
   },
   methods: {
     toHome () {
