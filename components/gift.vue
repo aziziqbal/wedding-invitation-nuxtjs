@@ -73,6 +73,43 @@
         </v-col>
       </v-row>
     </v-layout>
+    <v-layout class="bg-img">
+      <v-row align="center" justify="center" class="text-center fill-height pa-md-5 pa-3 mx-0">
+        <v-col cols="12" md="7">
+          <div class="title-wed">
+            Kirim Hadiah
+          </div>
+          <v-row>
+          <v-col cols="12" md="6">
+            <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
+              <div class="img-logo">
+                <v-img :src="require('../static/bni.png')" contain  style="margin-left:auto;margin-right:auto;padding-top:40px;"/>
+              </div>
+              <div class="garis-logo" />
+              <div class="detail-logo">
+                0749004049  <br>
+                a/n
+                Deana Annisa Aziz
+              </div>
+            </div>
+          </v-col>
+          <v-col cols="12" md="6">
+            <div class="box-pembayaran" data-aos="fade-right" data-aos-delay="500">
+              <div class="img-logo">
+                <v-img :src="require('../static/bri.png')" contain  style="margin-left:auto;margin-right:auto;height:90px"/>
+              </div>
+              <div class="garis-logo" />
+              <div class="detail-logo">
+                3765 0101 2521 506 <br>
+                a/n
+                Fauzia Nur Amrulloh
+              </div>
+            </div>
+          </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
+      </v-layout>
   </section>
 </template>
 
@@ -99,8 +136,9 @@ export default {
     var countDownDate = new Date("May 16, 2021 15:37:25").getTime();
   },
   methods: {
+
      kirim() {
-      window.open("https://wa.me/628974771832?text=Bismillah, Assalamu’alaikum Warahmatullahi Wabarakaatuh. InsyaAllah saya " + this.name + " " + this.status + " di Walimatul 'Urs Tomi dan Nabilah", "_blank");
+      window.open("https://wa.me/6285741112534?text=Bismillah, Assalamu’alaikum Warahmatullahi Wabarakaatuh. InsyaAllah saya " + this.name + " " + this.status + " di Walimatul 'Urs Fauzi dan Deana", "_blank");
     }
   }
 }

@@ -15,10 +15,6 @@
               <v-img :src="require('../static/protokol/doa.png')" contain class="icon-wed" />
               <div class="sub-wed">Mendoakan kedua mempelai</div>
             </v-col>
-            <!-- <v-col cols="6" md="4">
-              <v-img :src="require('../static/protokol/camera.png')" contain class="icon-wed" />
-              <div class="sub-wed">Tidak mengambil gambar tanpa izin kedua mempelai</div>
-            </v-col> -->
             <v-col cols="6" md="4">
               <v-img :src="require('../static/protokol/sendok.png')" contain class="icon-wed" />
               <div class="sub-wed">Memperhatikan adab makan dan minum</div>

@@ -11,7 +11,7 @@
             @start_callback="startCallBack('event started')"
             @end_callback="endCallBack('event ended')"
             :start-time="'2018-10-10 00:00:00'"
-            :end-time="1656694800000"
+            :end-time="1671937200000"
             :interval="1000"
             :start-label="'Until start:'"
             :end-label="''"
@@ -46,29 +46,23 @@
             <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Akad
               <br>
-              <span class="jam"> Sabtu, 2 Juli 2022<br> <span style="font-weight:;">09.00 WIB - 10.00 WIB </span></span> <br>
+              <span class="jam"> Minggu, 25 Desember 2022<br> <span style="font-weight:;">10.00 WIB - selesai </span></span> <br>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center" class="judul">
               Resepsi Pernikahan
-              <br>              <span class="jam"> Sabtu, 2 Juli 2022<br> <span style="font-weight:;">10.00 WIB - selesai </span></span> <br>
+              <br>              <span class="jam"> Minggu, 25 Desember 2022 <br> <span style="font-weight:;">13.00 WIB - selesai </span></span> <br>
 
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="12" align="center" class="judul">
-Rumah Mempelai Wanita
+Lokasi
               <br>
               <span class="jam">
-                Rumah Cerdas <br>
-Perumahan Permata Wirasana Blok A5 Celeleng, Wirasana, Purbalingga
+                Desa Sirandu 001/003 Kecamatan Karang Jambu Purbalingga
               </span> <br>
             </v-col>
-            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" style="margin-top:100px;">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8289376572375!2d109.3666532!3d-7.373061599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3da9af2ad3cb3c6!2sRumah%20Cerdas!5e0!3m2!1sid!2sid!4v1654485440440!5m2!1sid!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
-            </v-col>
-            <v-col data-aos="flip-up" data-aos-delay="400" cols="5">
-              <vs-button @click="goMaps()" size="medium"
-               shadow color="dark" style="margin-left:auto;margin-right:auto;margin-top:10px;border:1px solid black">
-                <v-icon color="black" style="margin-right:10px;font-size:16px;">mdi-map</v-icon> Lihat Peta
-              </vs-button>
+
+            <v-col data-aos="zoom-in-up" data-aos-delay="400" cols="12" style="margin-top:10px;">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3091787413214!2d109.36663021477463!3d-7.205524294798036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f563519f0abbaca!2zN8KwMTInMTkuOSJTIDEwOcKwMjInMDcuOCJF!5e0!3m2!1sen!2sid!4v1671405088222!5m2!1sen!2sid" height="450" style="border:0;width:100%" allowfullscreen="" loading="lazy"></iframe>
             </v-col>
           </v-row>
         </v-col>

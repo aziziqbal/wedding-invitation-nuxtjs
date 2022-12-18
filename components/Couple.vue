@@ -22,13 +22,13 @@
             <v-col data-aos="zoom-in-right" data-aos-delay="400" cols="12" md="6" align="center">
               <v-img style="width:40vh;height:260px;margin-left:0px;" :src="require('../static/tomy_ikhwan.png')" contain/>
               <div class="nama">
-                Tomi Andesta, SH
+                Fauzia Nur Amrulloh S.T
               </div>
               <div class="deskripsi">
                 Putra dari <br>
-                Bapak Arzen, S.Pd
+                Bapak Sutino
                 dan <br>
-                Ibu Nela Asma, S.Pd
+                Ibu Sri Utami
               </div>
             </v-col>
             <v-col data-aos="zoom-in-left" data-aos-delay="400" cols="12" md="6" align="center">
@@ -37,13 +37,13 @@
                 :src="require('../static/tomy_akhwat.png')"
                 contain  />
               <div class="nama">
-              Nabilah Assiyadah, S.Ag
+              Ns. Deana Annisa Aziz, S. Kep
               </div>
               <div class="deskripsi">
                 Putri dari <br>
-                Bapak  Syaefarindu, S.Pd
+                Bapak Karji
                 dan <br>
-                Ismaini, S.Pd.I
+                Ibu Jumiati
               </div>
             </v-col>
           </v-row>

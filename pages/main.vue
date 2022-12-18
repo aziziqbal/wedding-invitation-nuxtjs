@@ -77,13 +77,13 @@ export default {
     return {
       data: {},
       name: '',
-      file: 'https://www.aziziqbal.com/audio.mp3',
+      file: "https://walimahansyari.com/lalan.mp3",
       fullscreen: true,
       active: true,
     }
   },
   mounted() {
-    this.initParticles()
+    // this.initParticles()
     this.name = this.$router.currentRoute.query['to']
     var self = this;
 
